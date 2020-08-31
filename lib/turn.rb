@@ -15,3 +15,6 @@ end
 def position_taken?(board, index)
   board[index] != " "
 end
+
+def input_to_index
+end
