@@ -4,3 +4,10 @@ require_relative '../lib/turn'
 
 #board variable setup for CLI to store our array
 board = [" "," "," "," "," "," "," "," "," "]
+
+puts "Welcome to Tic Tac Toe!"
+#invoked from turn.rb
+#we are passing the board data as an arg 
+display_board(board)
+
+turn(board)
