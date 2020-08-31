@@ -1,6 +1,6 @@
 
 def turn(board)
-  "Please enter 1-9:"
+  puts "Please enter 1-9:"
   #strip returns a copy of a string with whitespace removed
   input = gets.strip
   index = input_to_index(input)
