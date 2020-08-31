@@ -16,6 +16,9 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 
+def valid_move?
+end
+
 def position_taken?(board, index)
   board[index] != " "
 end
