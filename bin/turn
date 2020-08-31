@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 #loading file from relative path turn.rb
 require_relative '../lib/turn'
+
+board = [" "," "," "," "," "," "," "," "," "," "," ",]
