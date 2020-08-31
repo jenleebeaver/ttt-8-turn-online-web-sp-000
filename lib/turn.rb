@@ -1,5 +1,6 @@
 
-def turn
+def turn(board)
+  "Please enter 1-9:"
 end
 
 private
@@ -24,9 +25,6 @@ end
 
 def move(board, index, current_player = "X")
   board[index] = current_player
-end
-
-def turn
 end
 
 def position_taken?(board, index)
