@@ -11,3 +11,5 @@ puts "Welcome to Tic Tac Toe!"
 display_board(board)
 
 turn(board)
+
+#from here run ruby bin/turn and should get one turn 
